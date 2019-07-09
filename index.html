@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>DriveBeat</title>
+  </head>
+  <body>
+
+    <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCL_ot3uuMY82WdvDj3U3Mjpw_IoT6gIQ0",
+        authDomain: "drivebeat-8b241.firebaseapp.com",
+        databaseURL: "https://drivebeat-8b241.firebaseio.com",
+        projectId: "drivebeat-8b241",
+        storageBucket: "drivebeat-8b241.appspot.com",
+        messagingSenderId: "529643516138"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
+    <script src = "./dist/build.js"></script>
+    <!-- built files will be auto injected -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
